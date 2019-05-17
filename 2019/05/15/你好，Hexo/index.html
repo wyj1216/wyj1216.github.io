@@ -96,7 +96,7 @@
 <meta property="og:image" content="d:/CTF/小白学习总结/blog/pictures/7.PNG">
 <meta property="og:image" content="d:/CTF/小白学习总结/blog/pictures/8.png">
 <meta property="og:image" content="d:/CTF/小白学习总结/blog/pictures/9.png">
-<meta property="og:updated_time" content="2019-05-17T03:06:56.795Z">
+<meta property="og:updated_time" content="2019-05-17T03:18:30.042Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="你好，Hexo">
 <meta name="twitter:description" content="利用GitHub+Hexo搭建自己的博客搭建过程参考大佬文章~ https://www.cnblogs.com/fengxiongZz/p/7707219.html 下载链接~  Node.js：https://nodejs.org/en/download/ Git：https://git-scm.com/downloads GitHub：https://github.com/  日常命令 进入h">
@@ -403,6 +403,14 @@
 <p><img src="D:\CTF\小白学习总结\blog\pictures\3.PNG" alt="3"></p>
 <p><img src="D:\CTF\小白学习总结\blog\pictures\4.PNG" alt="4"></p>
 <p><img src="D:\CTF\小白学习总结\blog\pictures\5.PNG" alt="5"></p>
+</li>
+<li><p>删除文章</p>
+<p>先删除本地文件，然后通过生成和部署命令进而将远程仓库中的文件也一并删除。</p>
+<p>具体来说，以最开始默认形成的helloworld.md这篇文章为例。</p>
+<p>首先进入到<code>source / _post</code>文件夹中，找到helloworld.md文件，在本地直接执行删除。然后依次执行</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+<p>再去主页查看你就会发现你的博客上面,没有了这篇文章啦~</p>
 </li>
 </ul>
 <h2 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h2><p>在参考教程搭建时，遇到了一些小问题，在这里提供一下关于这些小问题的解决方式~</p>
